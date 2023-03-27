@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ProyectoVacio</string>
+    <string name="hello_world">Hello World %s</string>
+</resources>

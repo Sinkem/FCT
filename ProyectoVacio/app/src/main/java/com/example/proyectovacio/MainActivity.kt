@@ -14,10 +14,10 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
-        helloWorld("Pablo")
+        helloWorld("Pablo", "Pepe")
     }
 
-    private fun helloWorld(name: String){
-        binding.tvHelloWorld.text = getString(R.string.hello_world, name)
+    private fun helloWorld(name: String, nameAlt: String){
+        binding.tvHelloWorld.text = getString(R.string.hello_world, name, nameAlt)
     }
 }

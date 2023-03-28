@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun helloWorld(name: String, nameAlt: String){
+
         binding.tvHelloWorld.text = getString(R.string.hello_world, name, nameAlt)
     }
 }
